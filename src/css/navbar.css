@@ -1,0 +1,47 @@
+.nav-notes {
+    display: block;
+    width: 100%;
+    margin: auto;
+    background: transparent;
+    height: 5.5em;
+    top: 1em !important;
+}
+
+.nav-list {
+    width: min(90%, 1000px);
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5em 0 1.5em 0;
+    border-radius: 50px;
+    background-color: #fff;
+    filter: contrast(95%);
+    gap: 1em;
+}
+
+
+li:nth-child(1)::marker {
+    color: #FF5924;
+}
+li:nth-child(2)::marker {
+    color: #FFE926;
+}
+li:nth-child(3)::marker {
+    color: #5CB13E;
+}
+
+.nav-a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-list > li {
+    font-weight: var(--medium);
+    font-size: 1em;
+}
+
+@media (min-width: 40em) {
+    .nav-list > li {
+        font-size: large;
+    }
+}

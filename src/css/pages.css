@@ -1,0 +1,51 @@
+.main-notes {
+    margin-top: 2em;
+}
+
+.notes-container {
+    width: min(90%, 1000px);
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.note-card {    
+    flex: auto;
+    width: max(45%, 20px);
+    background-color: #fff;
+    filter: contrast(95%);
+    padding: 0.5em;
+}
+
+.aspect-ratio-16-11{
+    aspect-ratio: 16/11;
+}
+
+.note-title {
+    font-weight: var(--medium);
+    font-size: 1.2em;
+}
+
+.note-content {
+    font-size: 0.8em;
+    font-weight: var(--lightess);
+    line-height: 1.4em;
+}
+
+@media (min-width: 40em) {
+    .notes-container {
+        gap: 3em;
+    }
+    .note-card {    
+        width: max(25%, 200px);
+        flex: none;
+    }
+    .note-title  {
+        font-size: 1.5em;
+    }
+    .note-content {
+        font-size: 1em;
+    }
+}

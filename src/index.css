@@ -1,0 +1,15 @@
+:root{
+  --lightess: 400;
+  --medium: 600;
+  ---bold: 800;
+  --bolder: 900;
+}
+
+body, html {
+  margin: 0;
+  font-family: 'JetBrains Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
