@@ -1,0 +1,3 @@
+[submodule "SUMI-BACKEND"]
+	path = SUMI-BACKEND
+	url = https://github.com/AngelSosa13/SUMI-BACKEND.git
